@@ -3,6 +3,11 @@
 	"version": "2.0.0",
 	"private": true,
 	"type": "module",
+	// 👇 新增的 engines 字段（核心修改）
+	"engines": {
+		"node": "20.x",
+		"pnpm": "9.x"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

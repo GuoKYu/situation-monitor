@@ -1,5 +1,5 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "apt-get update && apt-get install -y cmake && npm run build",
+  "buildCommand": "npm run build",
   "framework": "sveltekit"
 }

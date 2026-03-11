@@ -1,5 +1,7 @@
 {
-  "installCommand": "pnpm install",
-  "buildCommand": "apt-get update && apt-get install -y cmake && npm run build",
-  "framework": null
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "sveltekit",
+  "nodeVersion": "20.x"
 }

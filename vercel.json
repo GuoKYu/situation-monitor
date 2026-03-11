@@ -1,8 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "pnpm install",
-  "nodeVersion": "20.x",
-  "scripts": {
-    "prebuild": "apt-get update && apt-get install -y cmake"
-  }
+  "buildCommand": "apt-get update && apt-get install -y cmake && npm run build",
+  "installCommand": "pnpm install"
 }

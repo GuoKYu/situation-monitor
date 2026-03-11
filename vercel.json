@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "build",
-  "framework": "sveltekit"
+  "installCommand": "pnpm install",
+  "nodeVersion": "20.x",
+  "scripts": {
+    "prebuild": "apt-get update && apt-get install -y cmake"
+  }
 }
